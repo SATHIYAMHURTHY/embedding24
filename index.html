@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ML-Conference</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <!-- <link href="img/favicon.png" rel="icon"> -->
+  <!-- <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <link rel="stylesheet" href="card.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<!-- @import url(https://db.onlinewebfonts.com/c/8cdbb48678e4418f22a2f507c2b975bd?family=Blanka-Regular); -->
+
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  <style>
+@import url(https://db.onlinewebfonts.com/c/8cdbb48678e4418f22a2f507c2b975bd?family=Blanka-Regular);
+
+    .Title-Card h1{
+    
+    margin-bottom: 50px;
+    font-family: 'Blanka-Regular', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5s;
+}
+#countdown {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    justify-content: space-around;
+}
+li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  li span {
+    display: block;
+    font-size: 2.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+
+  .ctd {
+    /* background-color: rgba(0, 200, 255, 0.395);; */
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: .5%;
+    padding: 1.4%;
+    font-size: 14px;
+
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+  video{
+    height: 300px;
+  }
+  </style>
+  <style>
+    .our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  border-style: solid;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color:#2f3138;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #2f3138;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #2f3138;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #2f3138;
+  background-color: #f7f5ec;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <a href="#intro" class="scrollto"><img src="Assests/tensor camp white logo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          
+          <!-- <li><a href="#venue">Venue</a></li>
+          <li><a href="#hotels">Hotels</a></li>
+          <li><a href="#gallery">Gallery</a></li> -->
+          <li><a href="#supporters">Sponsors</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li> -->
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <div class=".Title-Card h1">
+      <h1 class="mb-4 pb-0"><img src="Assests/embeddings white logo.png"
+        alt="logo" class="img-fluid my-5" style="width: 90px; padding-right: 10px;" /><span>Embeddings</span>'24</h1></div>
+      <p class="mb-4 pb-0">TAMILNADU'S FIRST-OF-ITS-KIND OPEN COLLABORATION SUMMIT ON AI AND ANALYTICS</p>
+      <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
+        data-autoplay="true"></a> -->
+        <div class="container">
+                  <div id="countdown">
+                      <ul style="padding: 0;">
+                          <li class="ctd"><span id="days"></span>days</li>
+                          <li class="ctd"><span id="hours"></span>Hours</li>
+                          <li class="ctd"><span id="minutes"></span>Minutes</li>
+                          <li class="ctd"><span id="seconds"></span>Seconds</li>
+                      </ul>
+                  </div>
+      <a href="https://forms.gle/2T5EMpVXot2vNTan9" class="about-btn scrollto">Register Now</a>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2>About The Event</h2>
+            <!-- <p style="font-size: medium; text-align: justify;">Dive into the realm of academic innovation at St. Joseph's, where a visionary initiative was unfurled – the Placement Empowerment Program. Designed to carve a personalized path for students, this transformative program boasts a myriad of domains, and among them stands tall the beacon of AI and ML brilliance – 'St. Joseph's Tensor Camp.'
+              Imagine a journey where passion meets guidance, a trajectory crafted to fuel aspirations. Within the hallowed halls of the Tensor Camp, students are not mere spectators; they are protagonists in the narrative of their AI and ML dreams. Here, the program transcends boundaries, offering an immersive experience in crafting careers through real-world challenges, dynamic model building, and the wisdom imparted by distinguished guest lecturers.
+              Witness the metamorphosis as the St. Joseph's Tensor Camp becomes a crucible of talent, where every day unfolds a new chapter of learning and growth. From hands-on workshops that resonate with practical wisdom to the symphony of expert insights in guest lectures, the stage is set for students to not just embrace, but to shape the future of AI and ML.
+              Welcome to a space where dreams take root and futures are forged – St. Joseph's Tensor Camp, the gateway to a career in AI and ML that transcends the ordinary..</p> -->
+          
+              
+              <p style="font-size: medium; text-align: justify;"><b style="font-family: Georgia, 'Times New Roman', Times, serif; color: #FAA300;"><font size="5">Learn It</font> : Bridging Academia and Industry.</b> <br/>The Learn It sessions bridged academia and industry, showcasing AI's transformative impact. Renowned speakers shared insights, covering AI advancements and sector implications, engaging a diverse audience eager to stay updated with latest AI trends.</p>
+                  
+              
+              <p style="font-size: medium; text-align: justify;"><b style="font-family: Georgia, 'Times New Roman', Times, serif; color: #FAA300;"><font size="5">Do It</font>: Hands-on AI experience.</b><br/> Do It workshops offer hands-on experience, translating theory into practice for students and professionals alike. Led by expert facilitators, attendees engage in coding exercises, data analysis tasks, and machine learning experiments with real-world datasets. These sessions foster experiential learning and innovation, preparing participants for careers in AI while enhancing skills and staying relevant in a rapidly evolving field.</p>
+                    
+              
+              <p style="font-size: medium; text-align: justify;"><b style="font-family: Georgia, 'Times New Roman', Times, serif; color: #FAA300;"><font size="5">Tensor Premier League</font>: Uniting startups, professionals, students.</b><br/>The Tensor Premier League (TPL) promotes innovation and collaboration among startups, professionals, and students. Participants tackle real-world AI challenges, mentored by industry experts, refining their ideas and gaining valuable insights. TPL offers a platform for students to showcase their AI skills and potentially secure career opportunities with participating startups, facilitating a direct pathway into AI careers.</p>
+          
+            </div>
+          <div class="col-lg-3"style="margin-top:140px" >
+            <centre></centre><video src="./Assests/videoabt.mp4"  autoplay muted loop></video>
+          </div>
+          <!-- <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>Downtown Conference Center, New York</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+            <p>Monday to Wednesday<br>10-12 December</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Launch demo modal
+    </button>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+    <section class="vh-100" style="background-color: #f4f5f7;">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-lg-6 mb-4 mb-lg-0">
+            <div class="card mb-3" style="border-radius: .5rem;">
+              <div class="row g-0">
+                <div class="col-md-4 gradient-custom text-center text-white"
+                  style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                    alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                  <h5>Marie Horwitz</h5>
+                  <p>Web Designer</p>
+                  <i class="far fa-edit mb-5"></i>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h6>Information</h6>
+                    <hr class="mt-0 mb-4">
+                    <div class="row pt-1">
+                      <div class="col-6 mb-3">
+                        <h6>Email</h6>
+                        <p class="text-muted">info@example.com</p>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <h6>Phone</h6>
+                        <p class="text-muted">123 456 789</p>
+                      </div>
+                    </div>
+                    <h6>Projects</h6>
+                    <hr class="mt-0 mb-4">
+                    <div class="row pt-1">
+                      <div class="col-6 mb-3">
+                        <h6>Recent</h6>
+                        <p class="text-muted">Lorem ipsum</p>
+                      </div>
+                      <div class="col-6 mb-3">
+                        <h6>Most Viewed</h6>
+                        <p class="text-muted">Dolor sit amet</p>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-start">
+                      <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                      <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
+                      <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        </div></div></div> -->
+
+
+
+
+
+        <section id="schedule" class="section-with-bg">
+          <div class="container wow fadeInUp">
+            <div class="section-header">
+              <h2>Event Schedule</h2>
+              <p>Here is our event schedule</p>
+            </div>
+    
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#learn" role="tab" data-toggle="tab">Learn It</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#do" role="tab" data-toggle="tab">Do It</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#subscribe"  >Tensor Premier Leauge</a>
+              </li>
+            </ul>
+    
+            <h3 class="sub-heading">Explore the AI revolution with expert insights,
+              keynote addresses</h3>
+    
+            <div class="tab-content row justify-content-center">
+              
+    
+              <!-- Schdule learn  -->
+              <!-- <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="learn">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content row justify-content-center">
+                   <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+                       
+                    <div class="row schedule-item">
+                          <div class="col-md-2"><time>09:30 AM</time></div>
+                              <div class="col-md-10">
+                              <h4>Learn Registration day1</h4>
+                              <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                              </div>
+                          </div>
+                     
+    
+                        <div class="row schedule-item">
+                          <div class="col-md-2"><time>10:00 AM</time></div>
+                          <div class="col-md-10">
+                            <div class="speaker">
+                              <img src="img/speakers/1.jpg" alt="Brenden Legros">
+                            </div>
+                            <h4>Keynote <span>Brenden Legros</span></h4>
+                            <p>Facere provident incidunt quos voluptas.</p>
+                          </div>
+                      </div>
+                    
+                  </div>
+               
+               
+                  <div role="tabpanel" class="col-lg-9 tab-pane fade " id="day-2">
+                       
+                      <div class="row schedule-item">
+                          <div class="col-md-2"><time>09:30 AM</time></div>
+                              <div class="col-md-10">
+                              <h4>Learn Registration day 2</h4>
+                              <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                              </div>
+                          </div>
+    
+                        <div class="row schedule-item">
+                          <div class="col-md-2"><time>10:00 AM</time></div>
+                          <div class="col-md-10">
+                            <div class="speaker">
+                              <img src="img/speakers/1.jpg" alt="Brenden Legros">
+                            </div>
+                            <h4>Keynote <span>Brenden Legros</span></h4>
+                            <p>Facere provident incidunt quos voluptas.</p>
+                          </div>
+                        </div>
+                    
+                  </div>
+                </div>
+              </div> -->
+              
+              <!-- End Schdule learn -->
+              
+              <!-- Schdule do -->
+              <!-- <div role="tabpanel" class="col-lg-9 tab-pane fade " id="do">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#doday-1" role="tab" data-toggle="tab">Day 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#doday-2" role="tab" data-toggle="tab">Day 2</a>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content row justify-content-center">
+                  <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="doday-1">
+                       
+                      <div class="row schedule-item">
+                          <div class="col-md-2"><time>09:30 AM</time></div>
+                              <div class="col-md-10">
+                              <h4>Do Registration Day 1</h4>
+                              <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                              </div>
+                          </div>
+    
+                        <div class="row schedule-item">
+                          <div class="col-md-2"><time>10:00 AM</time></div>
+                          <div class="col-md-10">
+                            <div class="speaker">
+                              <img src="img/speakers/1.jpg" alt="Brenden Legros">
+                            </div>
+                            <h4>Keynote <span>Brenden Legros</span></h4>
+                            <p>Facere provident incidunt quos voluptas.</p>
+                          </div>
+                        </div>
+                    
+                  </div>
+                
+               
+                  <div role="tabpanel" class="col-lg-9 tab-pane fade" id="doday-2">
+                       
+                      <div class="row schedule-item">
+                          <div class="col-md-2"><time>09:30 AM</time></div>
+                              <div class="col-md-10">
+                              <h4>Do Registration Day 2</h4>
+                              <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                              </div>
+                          </div>
+    
+                        <div class="row schedule-item">
+                          <div class="col-md-2"><time>10:00 AM</time></div>
+                          <div class="col-md-10">
+                            <div class="speaker">
+                              <img src="img/speakers/1.jpg" alt="Brenden Legros">
+                            </div>
+                            <h4>Keynote <span>Brenden Legros</span></h4>
+                            <p>Facere provident incidunt quos voluptas.</p>
+                          </div>
+                        </div>
+                    
+                  </div>
+                </div>
+              </div> -->
+              <!-- End Schdule Day 2 -->
+    
+            </div>
+    
+          </div>
+    
+        </section>
+    
+
+     <!--==========================
+      Speakers Section
+    ============================-->
+    
+      <div class="mai1" id="speakers">
+        <div class="section-header">
+          <h2>Event Speakers</h2>
+          <p>Here are some of our speakers</p>
+        </div>  
+      <div class="bod1">
+        
+    <div class="container1">
+    
+      <div class="main-card">
+        <div class="cards">
+          <div class="card">
+           <div class="content">
+             <div class="img">
+              <img src="Assests/profile/speaker1.jpg" alt="">
+             </div>
+             <div class="details">
+               <div class="name">Dr. Subalalitha.C.N</div>
+               <div class="job">Founder</div>
+             </div>
+             <div class="media-icons">
+               <a href="https://www.linkedin.com/in/dr-subalalitha-c-n-0624b739/"><i class="fab fa-linkedin"></i></a>
+              
+             </div>
+           </div>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="img">
+                <img src="Assests/profile/speaker2.jpg"alt="">
+              </div>
+              <div class="details">
+                <div class="name">Arasu Shankher J</div>
+                <div class="job">CEO</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://www.linkedin.com/in/arasush/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+           </div>
+
+           <div class="card">
+            <div class="content">
+              <div class="img">
+                <img src="Assests/profile/speaker3.jpg" alt="">
+              </div>
+              <div class="details">
+                <div class="name">Anisha Udayakumar</div>
+                <div class="job">AI Evangelist</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://www.linkedin.com/in/anisha-uday?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+           </div>
+           <div class="card">
+            <div class="content">
+              <div class="img">
+                <img src="Assests/profile/speaker4.jpg" alt="">
+              </div>
+              <div class="details">
+                <div class="name">Amrish Krishnan</div>
+                <div class="job">Founder</div>
+              </div>
+              <div class="media-icons">
+                <a href="https://www.linkedin.com/in/amrish-krishnan/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+           </div>
+          <div class="card">
+           <div class="content">
+             <div class="img">
+              <img src="Assests/profile/speaker5.jpg" alt="">
+             </div>
+             <div class="details">
+               <div class="name">Dr.Sainarayanan Gopalakrishnan</div>
+               <div class="job">Technology Director (AI and Computer Vision)</div>
+             </div>
+             <div class="media-icons">
+              <a href="https://www.linkedin.com/in/sainarayanan-gopalakrishnan-ph-d-mipl-asmp-iimk-6623a2b/"><i class="fab fa-linkedin"></i></a>
+             </div>
+           </div>
+          </div>
+          <div class="card">
+           <div class="content">
+             <div class="img">
+              <img src="Assests/profile/speaker6.jpg" alt="">
+             </div>
+             <div class="details">
+               <div class="name">Akshay Kumaar(Shay)
+                Murali Gopika Manoharan
+    </div>
+               <div class="job">Lead Machine Learning Engineer </div>
+             </div>
+             <div class="media-icons">
+              <a href="https://www.linkedin.com/in/aksh-ai/"><i class="fab fa-linkedin"></i></a>
+             </div>
+           </div>
+          </div>
+
+          
+
+        <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker7.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Raghavendran.J</div>
+              <div class="job">Group Leader- Data Science and Digital Analytics</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/raghavendranj/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker8.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Dr.Kanimozhi Uma </div>
+              <div class="job">AI Advisor</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/kanimozhi-uma-ph-d-8b116058/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker9.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Dr.Jeevakala.S </div>
+              <div class="job">Senior R&D Lead ADAS</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/dr-jeevakala-s-ph-d-74702b7a/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker10.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Sabarirajan Kumarappan</div>
+              <div class="job">AI Engineer</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/sabarirajan-kumarappan-7264091ab/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker11.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">R.Joseph Manoj</div>
+              <div class="job">Senior.Data Scientist</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/rjosephmanoj/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker12.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Dr.Paramasaviam Muthu Eswaran</div>
+              <div class="job">Associate Professor and Coordinator</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/dr-paramasivam-muthan-eswaran-5675b81b/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker13.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Niranjan Christopher</div>
+              <div class="job">Data Science and Analytics</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/niranjanchristopher/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker14.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Vinoth Arjun</div>
+              <div class="job">Senior Analyst - Machine learning</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/vinoth-arjun-367650156/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+         <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="Assests/profile/speaker15.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Mr. Arockia Praveen</div>
+              <div class="job">Co-founder</div>
+            </div>
+            <div class="media-icons">
+              <a href="https://www.linkedin.com/in/arockia-praveen/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+         </div>
+
+
+         <!-- <div class="card">
+          <div class="content">
+            <div class="img">
+             <img src="images/img3.jpg" alt="">
+            </div>
+            <div class="details">
+              <div class="name">Justin Chung</div>
+              <div class="job">Web Devloper</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+         </div> -->
+
+       </div>
+
+
+       
+       
+
+
+     
+     </div>
+
+
+
+
+        </div>
+
+
+       
+
+     
+   </div>
+
+       
+      <!-- <div class="button">
+        <label for="one" class=" active one"></label>
+        <label for="two" class="two"></label>
+      </div> -->
+    </div>
+
+    </div>
+  </div>
+
+     <!--==========================
+      Subscribe Section
+    ============================-->
+    <section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Tensor Premier League</h2>
+          <p>The Tensor Premier League (TPL) promotes innovation and collaboration among startups, professionals, and students. Participants tackle real-world AI challenges, mentored by industry experts, refining their ideas and gaining valuable insights. TPL offers a platform for students to showcase their AI skills and potentially secure career opportunities with participating startups, facilitating a direct pathway into AI careers</p>
+        </div>
+
+        <form method="POST" action="#">
+          <div class="form-row justify-content-center">
+            <!-- <div class="col-auto">
+              <input type="text" class="form-control" placeholder="Enter your Email">
+            </div> -->
+            <div class="col-auto">
+              <a href="https://forms.gle/2T5EMpVXot2vNTan9" class="about-btn scrollto">Register Now</a>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>
+   
+
+    
+    <!--==========================
+      Sponsors Section
+    ============================-->
+    <section id="supporters" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Sponsors</h2>
+        </div>
+        <div class="supporter-logo">
+          <img src="Assests/sponsor.png" class="img-fluid" alt="">
+        </div>  
+      
+<!-- 
+        <div class="row no-gutters supporters-wrap clearfix">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div> -->
+
+
+
+        <!-- <div class="row contact-info">
+
+          <div class="col-mg-6">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <center><h3>Venue Sponsors</h3></center> -->
+              <!-- <address>A108 Adam Street, NY 535022, USA</address> -->
+              
+              <!-- <div class="row no-gutters supporters-wrap clearfix">
+
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <div class="supporter-logo">
+                    <img src="img/supporters/1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <div class="supporter-logo">
+                    <img src="img/supporters/2.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <div class="supporter-logo">
+                    <img src="img/supporters/3.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <div class="supporter-logo">
+                    <img src="img/supporters/4.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                
+                
+              </div>   -->
+              <!-- <div class="supporter-logo">
+                <img src="Assests/venuesponser.jpg" class="img-fluid" alt="">
+              </div>  
+            </div>
+          </div>
+
+
+
+          <div class="col-mg-6">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <center><h3>Industrial Sponsors</h3></center> -->
+              <!-- <address>A108 Adam Street, NY 535022, USA</address> -->
+              
+              <!-- <div class="row no-gutters supporters-wrap clearfix"> -->
+
+                <!-- <div class="col-lg-3 col-md-4 col-xs-6"> -->
+                  <!-- <div class="supporter-logo">
+                    <img src="Assests/INDUSTRY.png" class="img-fluid" alt="">
+                  </div> -->
+                <!-- </div> -->
+                
+                
+                
+               
+                
+                
+              <!-- </div>   -->
+            <!-- </div>
+          </div>
+
+
+          <div class="col-mg-6">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <center><h3> Community Sponsors</h3></center> -->
+              <!-- <address>A108 Adam Street, NY 535022, USA</address> -->
+              
+              <!-- <div class="row no-gutters supporters-wrap clearfix"> -->
+
+                <!-- <div class="col-lg-3 col-md-4 col-xs-6"> -->
+                  <!-- <div class="supporter-logo">
+                    <img src="Assests/COMMUNITY.png" class="img-fluid" alt="">
+                  </div> -->
+                <!-- </div> -->
+                
+               
+                
+                
+              <!-- </div>   -->
+            <!-- </div>
+          </div> -->
+          <!-- <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <img src="img/supporters/8.png" class="img-fluid" alt="">
+            </div>
+          </div> -->
+
+          <!-- <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              
+            </div>
+          </div> -->
+
+        <!-- </div> -->
+
+      </div>
+
+    </section>
+
+    
+   
+
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <!-- <p>Nihil officia ut sint molestiae tenetur.</p> -->
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>St.Joseph's Group Of Institutions OMR Chennai-600119</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+91 94861 59100">+91 94861 59100</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="msumathis@stjosephs.ac.in">sumathis@stjosephs.ac.in</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <!-- <div class="footer-top"> -->
+      <!-- <div class="container"> -->
+        <!-- <div class="row"> -->
+
+          <!-- <div class="col-lg-3 col-md-6 footer-info"> -->
+            <!-- <img src="img/logo.png" alt="TheEvenet"> -->
+            <!-- <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 footer-links"> -->
+            <!-- <h4>Useful Links</h4> -->
+            <!-- <ul> -->
+              <!-- <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li> -->
+              <!-- <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li> -->
+              <!-- <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li> -->
+              <!-- <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li> -->
+              <!-- <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li> -->
+            <!-- </ul> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links"> -->
+              <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+              <!-- <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> -->
+              <!-- <a href="https://lnkd.in/gUYK3PDv" class="instagram"><i class="fa fa-instagram"></i></a> -->
+              <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
+              <!-- <a href="https://www.linkedin.com/company/embeddings-24/
+              " class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div> -->
+
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>ML-Conference</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+<!--         
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+              <a href="https://www.facebook.com/share/C3bhqVN2NtZTsx6d/?mibextid=qi2Omg" class="facebook" style="margin-right: 10px;"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/embeddings_24?igsh=MWgxN3J3bm9veGc1eg" class="instagram" style="margin-right: 10px;"><i class="fa fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/company/embeddings-24/
+              " class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+  <script>// Countdown 
+    (function () {
+        const second = 1000,
+              minute = second * 60,
+              hour = minute * 60,
+              day = hour * 24;
+      
+    
+    
+        let today = new Date(),
+            dd = String(today.getDate()).padStart(2, "0"),
+            mm = String(today.getMonth() + 1).padStart(2, "0"),
+            yyyy = today.getFullYear(),
+            nextYear = yyyy, // i kept this equal if we want to change it to next year we can add +1
+            dayMonth = "03/15/", // setdate of the event
+            event = dayMonth + yyyy;
+        
+        today = mm + "/" + dd + "/" + yyyy;
+        if (today > event) {
+          event = dayMonth + nextYear;
+        }
+        //end
+        
+        const countDown = new Date(event).getTime(),
+            x = setInterval(function() {    
+      
+              const now = new Date().getTime(),
+                    distance = countDown - now;
+      
+              document.getElementById("days").innerText = Math.floor(distance / (day)),
+                document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+      
+              //do something later when date is reached
+              if (distance < 0) {
+                document.getElementById("headline").innerText = "It's show time!";
+                document.getElementById("countdown").style.display = "none";
+                document.getElementById("content").style.display = "block";
+                clearInterval(x);
+              }
+              //seconds
+            }, 0)
+        }());</script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
